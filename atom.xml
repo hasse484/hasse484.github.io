@@ -39,4 +39,58 @@
     
   </entry>
   
+  <entry>
+    <title>Hexo d上传到Github报错解决办法</title>
+    <link href="https://www.coldfire.com.cn/posts/2172d5c2.html"/>
+    <id>https://www.coldfire.com.cn/posts/2172d5c2.html</id>
+    <published>2022-08-08T11:25:37.000Z</published>
+    <updated>2023-08-02T13:42:52.770Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="问题">问题</h3><p>Hexo d发生错误</p><p>出现下面的错误</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">FATAL &#123;</span><br><span class="line">  err: Error: Spawn failed</span><br><span class="line">      at ChildProcess.&lt;anonymous&gt; (F:\desker\blog\node_modules\hexo-util\lib\spawn.js:51:21)</span><br><span class="line">      at ChildProcess.emit (node:events:527:28)</span><br><span class="line">      at ChildProcess.cp.emit (F:\desker\blog\node_modules\cross-spawn\lib\enoent.js:34:29)</span><br><span class="line">      at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12) &#123;</span><br><span class="line">    code: 128</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure><h3 id="原因">原因</h3><p>问题大多是因为git进行push或者hexo d的时候改变了一些.deploy_git文件下的内容。</p><h3 id="解决方法">解决方法</h3><h4 id="方法一">方法一</h4><p>1.删除 <code>.deploy_git</code> 文件夹;<br>2.输入 <code>git config --global core.autocrlf false</code><br>3.然后，依次执行</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><h4 id="方法二">方法二</h4><p>1.进入hexo根目录<br>2.直接把根目录的<code>.deploy_git</code>和<code>public</code>直接删除！<br>3.然后，依次执行：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><h4 id="方法三">方法三</h4><p>1.进入hexo根目录的_config.yml<br>2.找到# Deployment<br>3.把<code> repo: https://github.com/你的名字/你的名字.github.io.git</code><br>改为<code> repo: git@github.com:你的名字/你的名字.github.io.git</code><br>5.然后，依次执行：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;问题&quot;&gt;问题&lt;/h3&gt;
+&lt;p&gt;Hexo d发生错误&lt;/p&gt;
+&lt;p&gt;出现下面的错误&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;</summary>
+      
+    
+    
+    
+    <category term="Hexo报错解决大全" scheme="https://www.coldfire.com.cn/categories/Hexo%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E5%A4%A7%E5%85%A8/"/>
+    
+    
+    <category term="Hexo报错解决大全" scheme="https://www.coldfire.com.cn/tags/Hexo%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E5%A4%A7%E5%85%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>原神机器人Yunzai-Bot window搭建教程</title>
+    <link href="https://www.coldfire.com.cn/posts/d39d0db.html"/>
+    <id>https://www.coldfire.com.cn/posts/d39d0db.html</id>
+    <published>2022-07-26T03:37:13.000Z</published>
+    <updated>2023-08-05T11:51:29.369Z</updated>
+    
+    <content type="html"><![CDATA[<p>2022年七月最新教程</p><h2 id="安装教程">安装教程</h2><h3 id="1-安装Nodejs">1.安装Nodejs</h3><p>下载安装Nodejs，官方推荐V14版本以上，安装地址点击跳转<a href="http://nodejs.cn/download/">http://nodejs.cn/download/</a>!</p><p><img src="https://bu.dusays.com/2023/08/05/64ce36b6ef2d9.jpg" alt="node"></p><p><a href="https://m.runoob.com/nodejs/nodejs-install-setup.html">安装教程Nodejs</a></p><h3 id="2-下载启动Redis">2.下载启动Redis</h3><p>下载地址 <a href="https://wwa.lanzoui.com/inuUQi6v3ad">https://wwa.lanzoui.com/inuUQi6v3ad</a></p><p>打开redis-sever.exe</p><p><img src="https://bu.dusays.com/2023/08/05/64ce36b6d483f.jpg" alt="QQ截图20220726141128"></p><p>开着不用关闭</p><h3 id="3-克隆代码">3.克隆代码</h3><p>在桌面创建一个文件夹，名为paimon</p><p><img src="https://bu.dusays.com/2023/08/05/64ce36b83d1e4.jpg" alt="QQ截图20220726141500"></p><p>下载安装git，<a href="https://pc.qq.com/detail/13/detail_22693.html">https://pc.qq.com/detail/13/detail_22693.html</a></p><p>1.选择目录右键，打开Git Bash Here</p><p>2.如果用git bash here有安装失败现象，可以选择在文件夹内部启用cmd</p><p>输入克隆代码</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://gitee.com/yoimiya-kokomi/Yunzai-Bot</span><br></pre></td></tr></table></figure><p><img src="https://bu.dusays.com/2023/08/05/64ce36b858809.jpg" alt="QQ截图20220726151708"></p><p>克隆完成输入进入目录</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> Yunzai-Bot</span><br></pre></td></tr></table></figure><p><img src="https://bu.dusays.com/2023/08/05/64ce36b698410.jpg" alt="QQ截图20220726151715"></p><p>复制粘贴安装命令</p><p>第一条命令</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npmmirror.com</span><br></pre></td></tr></table></figure><p><img src="https://bu.dusays.com/2023/08/05/64ce36b697905.jpg" alt="QQ截图20220726151835"></p><p>第二条命令</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install</span><br></pre></td></tr></table></figure><p><img src="https://bu.dusays.com/2023/08/05/64ce36b6aa39a.jpg" alt="QQ截图20220726151956"></p><p>​                                                                                           可以无视红色报错</p><h3 id="4-获取cookie">4.获取cookie</h3><p>配置cookie教程：<a href="http://docs.qq.com/doc/DUWNVQVFTU3liTVlO">docs.qq.com/doc/DUWNVQVFTU3liTVlO</a></p><h3 id="5-安装喵喵插件">5.安装喵喵插件</h3><p>安装github太慢就用gitee</p><p>Github</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/yoimiya-kokomi/miao-plugin.git ./plugins/miao-plugin/</span><br></pre></td></tr></table></figure><p>Gitee</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://gitee.com/yoimiya-kokomi/miao-plugin.git ./plugins/miao-plugin/</span><br></pre></td></tr></table></figure><h3 id="6-启动机器人">6.启动机器人</h3><p>再次运行，先开redis，</p><p>再在项目打开cmd</p><p>最后输入node app运行，按提示输入qq号密码登录，cookie用来查询米游社接口</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;2022年七月最新教程&lt;/p&gt;
+&lt;h2 id=&quot;安装教程&quot;&gt;安装教程&lt;/h2&gt;
+&lt;h3 id=&quot;1-安装Nodejs&quot;&gt;1.安装Nodejs&lt;/h3&gt;
+&lt;p&gt;下载安装Nodejs，官方推荐V14版本以上，安装地址点击跳转&lt;a href=&quot;http://nodejs.cn/d</summary>
+      
+    
+    
+    
+    <category term="QQ机器人搭建" scheme="https://www.coldfire.com.cn/categories/QQ%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%90%AD%E5%BB%BA/"/>
+    
+    
+    <category term="QQ机器人搭建" scheme="https://www.coldfire.com.cn/tags/QQ%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
+  
 </feed>
