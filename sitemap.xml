@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://www.coldfire.com.cn/box/nav/index.html</loc>
+    <loc>https://www.coldfire.com.cn/box/gallery/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://www.coldfire.com.cn/box/gallery/index.html</loc>
+    <loc>https://www.coldfire.com.cn/box/nav/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://www.coldfire.com.cn/personal/love/index.html</loc>
+    <loc>https://www.coldfire.com.cn/personal/bb/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -110,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://www.coldfire.com.cn/personal/bb/index.html</loc>
+    <loc>https://www.coldfire.com.cn/personal/love/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -182,20 +182,6 @@
 
   
   <url>
-    <loc>https://www.coldfire.com.cn/tags/Hexo%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E5%A4%A7%E5%85%A8/</loc>
-    <lastmod>2023-08-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.coldfire.com.cn/tags/QQ%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2023-08-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.coldfire.com.cn/tags/Markdown/</loc>
     <lastmod>2023-08-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -209,7 +195,28 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://www.coldfire.com.cn/tags/Hexo%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E5%A4%A7%E5%85%A8/</loc>
+    <lastmod>2023-08-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.coldfire.com.cn/tags/QQ%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2023-08-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://www.coldfire.com.cn/categories/%E6%BC%94%E7%A4%BA/</loc>
+    <lastmod>2023-08-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>https://www.coldfire.com.cn/categories/Hexo%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E5%A4%A7%E5%85%A8/</loc>
@@ -220,13 +227,6 @@
   
   <url>
     <loc>https://www.coldfire.com.cn/categories/QQ%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2023-08-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.coldfire.com.cn/categories/%E6%BC%94%E7%A4%BA/</loc>
     <lastmod>2023-08-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
